@@ -17,7 +17,7 @@ $(".nav_link--tt2").on("mouseleave", function () {
 });
 
 //change menu color on scroll
-/*
+
 $(".section_full.is-dark,.section.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
@@ -25,14 +25,13 @@ $(".section_full.is-dark,.section.is-dark").each(function (index) {
     end: "bottom 10%",
     markers: true
     onEnter: () => {
-      $(".navbar_bottom--bg0").addClass("sm0.2");
+      $(".navbar_bottom--bg0").removeClass("sm0.1");
     },
     onEnterBack: () => {
-      $(".navbar_bottom--bg0").addClass("sm0.2");
+      $(".navbar_bottom--bg0").removeClass("sm0.1");
     }
   });
 });
-*/
 
 $(".section.is-light").each(function (index) {
   ScrollTrigger.create({
