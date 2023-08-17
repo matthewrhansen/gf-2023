@@ -24,10 +24,10 @@ $(".section_full.is-dark, .section.is-dark").each(function (index) {
     start: "top 50%",
     end: "bottom 10%",
     onEnter: () => {
-      $(".navbar_bottom").addClass("sm0.2--bg0");
+      $(".nav_wrap").addClass("sm0.2--bg0");
     },
     onEnterBack: () => {
-      $(".navbar_bottom").addClass("sm0.2--bg0");
+      $(".nav_wrap").addClass("sm0.2--bg0");
     }
   });
 });
@@ -39,10 +39,10 @@ $(".section.is-light").each(function (index) {
     end: "bottom 10%",\
     markers: "true"
     onEnter: () => {
-      $(".navbar_bottom").removeClass("sm0.2--bg0");
+      $(".nav_wrap").removeClass("sm0.2--bg0");
     },
     onEnterBack: () => {
-      $(".navbar_bottom").removeClass("sm0.2--bg0");
+      $(".nav_wrap").removeClass("sm0.2--bg0");
     }
   });
 });
