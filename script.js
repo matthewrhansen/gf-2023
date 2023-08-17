@@ -18,7 +18,7 @@ $(".nav_link--tt2").on("mouseleave", function () {
 
 //change menu color on scroll
 
-$(".section_full.is-dark,.section.is-dark").each(function (index) {
+$(".section_full.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
     start: " top 10%",
@@ -37,7 +37,7 @@ $(".section.is-light").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
     start: "top 10%",
-    end: "bottom 10%",
+    end: "bottom",
     markers: true
     onEnter: () => {
       $(".navbar_bottom--bg0").addClass("sm0.1");
