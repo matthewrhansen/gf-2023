@@ -25,10 +25,10 @@ $(".section_full.is-dark,.section.is-dark").each(function (index) {
     end: "bottom 10%",
     markers: true
     onEnter: () => {
-      $(".navbar_wrap").addClass("sm0.2");
+      $(".navbar_bottom--bg0").addClass("sm0.2");
     },
     onEnterBack: () => {
-      $(".navbar_wrap").addClass("sm0.2");
+      $(".navbar_bottom--bg0").addClass("sm0.2");
     }
   });
 });
@@ -40,10 +40,10 @@ $(".section.is-light").each(function (index) {
     end: "bottom 10%",
     markers: true
     onEnter: () => {
-      $(".navbar_wrap").removeClass("sm0.2");
+      $(".navbar_bottom--bg0").removeClass("sm0.2");
     },
     onEnterBack: () => {
-      $(".navbar_wrap").removeClass("sm0.2");
+      $(".navbar_bottom--bg0").removeClass("sm0.2");
     }
   });
 });
