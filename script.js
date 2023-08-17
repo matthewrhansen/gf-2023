@@ -22,7 +22,7 @@ $(".section_full.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
     start: " top 5vh",
-    end: "bottom",
+    end: "bottom 5vh",
     markers: true
     onEnter: () => {
       $(".navbar_bottom--bg0").removeClass("sm0.1");
