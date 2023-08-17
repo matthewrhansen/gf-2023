@@ -47,4 +47,3 @@ $(".section.is-dark").each(function (index) {
     }
   });
 });
-</script>
