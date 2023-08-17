@@ -21,8 +21,8 @@ $(".nav_link--tt2").on("mouseleave", function () {
 $(".section.is-light").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
-    start: "top",
-    end: "top 5%",
+    start: "top 5%",
+    end: "bottom 5%",
     markers: true
     onEnter: () => {
       $(".navbar_wrap").addClass("sm0.1");
@@ -36,8 +36,8 @@ $(".section.is-light").each(function (index) {
 $(".section_full.is-dark,.section.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
-    start: "top center",
-    end: "bottom",
+    start: "top 5%",
+    end: "bottom 5%",
     markers: true
     onEnter: () => {
       $(".navbar_wrap").removeClass("sm0.1");
