@@ -18,21 +18,6 @@ $(".nav_link--tt2").on("mouseleave", function () {
 
 //change menu color on scroll
 
-$(".section.is-light").each(function (index) {
-  ScrollTrigger.create({
-    trigger: $(this),
-    start: "top 10%",
-    end: "bottom 10%",
-    markers: true
-    onEnter: () => {
-      $(".navbar_wrap").addClass("sm0.1");
-    },
-    onEnterBack: () => {
-      $(".navbar_wrap").addClass("sm0.1");
-    }
-  });
-});
-
 $(".section_full.is-dark,.section.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
@@ -40,10 +25,25 @@ $(".section_full.is-dark,.section.is-dark").each(function (index) {
     end: "bottom 10%",
     markers: true
     onEnter: () => {
-      $(".navbar_wrap").removeClass("sm0.1");
+      $(".navbar_wrap").addClass("sm0.2");
     },
     onEnterBack: () => {
-      $(".navbar_wrap").removeClass("sm0.1");
+      $(".navbar_wrap").addClass("sm0.2");
+    }
+  });
+});
+
+$(".section.is-light").each(function (index) {
+  ScrollTrigger.create({
+    trigger: $(this),
+    start: "top 10%",
+    end: "bottom 10%",
+    markers: true
+    onEnter: () => {
+      $(".navbar_wrap").removeClass("sm0.2");
+    },
+    onEnterBack: () => {
+      $(".navbar_wrap").removeClass("sm0.2");
     }
   });
 });
