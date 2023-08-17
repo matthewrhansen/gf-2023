@@ -23,7 +23,7 @@ $(".section.is-light").each(function (index) {
     trigger: $(this),
     start: "top",
     end: "bottom top",
-    markers: true,
+    markers: true
     onEnter: () => {
       $(".navbar_wrap").addClass("sm0.1");
     },
@@ -38,7 +38,7 @@ $(".section_full.is-dark").each(function (index) {
     trigger: $(this),
     start: "top 5%",
     end: "top",
-    markers: true,
+    markers: true
     onEnter: () => {
       $(".navbar_wrap").removeClass("sm0.1");
     },
