@@ -18,7 +18,7 @@ $(".nav_link--tt2").on("mouseleave", function () {
 
 //change menu color on scroll
 
-$(".section_full.is-dark").each(function (index) {
+$(".section_full.is-dark, .section.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
     start: "top 10%",
