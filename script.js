@@ -36,7 +36,7 @@ $(".section.is-light").each(function (index) {
 $(".section.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
-    start: "top 80%",
+    start: "bottom",
     end: "bottom top",
     markers: true,
     onEnter: () => {
