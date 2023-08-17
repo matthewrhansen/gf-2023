@@ -21,8 +21,8 @@ $(".nav_link--tt2").on("mouseleave", function () {
 $(".section_full.is-dark,.section.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
-    start: "bottom top",
-    end: "",
+    start: " top 10%",
+    end: "bottom 10%",
     markers: true
     onEnter: () => {
       $(".navbar_bottom--bg0").removeClass("sm0.1");
