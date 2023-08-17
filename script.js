@@ -22,7 +22,7 @@ $(".section_full.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
     start: " top 10%",
-    end: "bottom 10%",
+    end: "top 15%",
     markers: true
     onEnter: () => {
       $(".navbar_bottom--bg0").removeClass("sm0.1");
