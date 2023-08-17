@@ -21,14 +21,13 @@ $(".nav_link--tt2").on("mouseleave", function () {
 $(".section_full.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
-    start: " top 10%",
-    end: "top 15%",
-    markers: true
+    start: "top 10%",
+    end: "bottom 10%",
     onEnter: () => {
-      $(".navbar_bottom--bg0").removeClass("sm0.1");
+      $(".navbar_bottom").addClass("sm0.2");
     },
     onEnterBack: () => {
-      $(".navbar_bottom--bg0").removeClass("sm0.1");
+      $(".navbar_bottom").addClass("sm0.2");
     }
   });
 });
@@ -36,14 +35,13 @@ $(".section_full.is-dark").each(function (index) {
 $(".section.is-light").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
-    start: "top 5vh",
-    end: "bottom",
-    markers: true
+    start: "top 10%",
+    end: "bottom 10%",
     onEnter: () => {
-      $(".navbar_bottom--bg0").addClass("sm0.1");
+      $(".navbar_bottom").removeClass("sm0.2");
     },
     onEnterBack: () => {
-      $(".navbar_bottom--bg0").addClass("sm0.1");
+      $(".navbar_bottom").removeClass("sm0.2");
     }
   });
 });
