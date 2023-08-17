@@ -22,7 +22,7 @@ $(".section.is-light").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
     start: "top",
-    end: "bottom top",
+    end: "top 5%",
     markers: true
     onEnter: () => {
       $(".navbar_wrap").addClass("sm0.1");
