@@ -36,7 +36,8 @@ $(".section.is-light").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
     start: "top 10%",
-    end: "bottom 10%",
+    end: "bottom 10%",\
+    markers: "true"
     onEnter: () => {
       $(".navbar_bottom").removeClass("sm0.2");
     },
