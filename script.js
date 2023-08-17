@@ -33,7 +33,7 @@ $(".section.is-light").each(function (index) {
   });
 });
 
-$(".section_full.is-dark").each(function (index) {
+$(".section_full.is-dark,.section.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
     start: "top center",
