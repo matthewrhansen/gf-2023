@@ -37,7 +37,7 @@ $(".section.is-light").each(function (index) {
     trigger: $(this),
     start: "top",
     end: "bottom",
-    markers: "true"
+    markers: "true",
     onEnter: () => {
       $(".nav_wrap").addClass("sm0.1");
     },
