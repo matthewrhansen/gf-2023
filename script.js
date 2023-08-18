@@ -23,6 +23,7 @@ $(".section_full.is-dark").each(function (index) {
     trigger: $(this),
     start: "top 10%",
     end: "bottom 10%",
+    markers: "true",
     onEnter: () => {
       $(".nav_wrap").addClass("sm0.2");
     },
