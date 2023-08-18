@@ -21,7 +21,7 @@ $(".nav_link--tt2").on("mouseleave", function () {
 $(".section_full.is-dark").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
-    start: "20px 80% ",
+    start: "bottom center ",
     end: "+=200",
     markers: "true",
     onEnter: () => {
