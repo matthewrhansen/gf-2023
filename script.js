@@ -35,8 +35,8 @@ $(".section_full.is-dark, .section.is-dark").each(function (index) {
 $(".section.is-light").each(function (index) {
   ScrollTrigger.create({
     trigger: $(this),
-    start: "top 50%",
-    end: "bottom 10%",\
+    start: "top",
+    end: "bottom",
     markers: "true"
     onEnter: () => {
       $(".nav_wrap").addClass("sm0.1");
